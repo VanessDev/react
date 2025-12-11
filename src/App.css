@@ -50,3 +50,11 @@ h2 {
   color: rgba(255, 0, 255, 0.546);
   text-align: center;
 }
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}

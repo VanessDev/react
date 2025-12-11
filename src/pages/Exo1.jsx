@@ -2,6 +2,7 @@
 import Title from "../components/Title";
 import Message from "../components/Message";
 import Calculator from "./Calculator";
+import Button from "./Button";
 
 function Exo1() {
   return (
@@ -17,6 +18,10 @@ function Exo1() {
 
         <div>
           <Calculator />
+        </div>
+
+        <div>
+          <Button/>
         </div>
       </section>
     </>
