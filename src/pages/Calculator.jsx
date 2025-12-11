@@ -42,10 +42,12 @@ function ButtonPanel({ onButtonClick }) {
 
 //Pour gérer l’état de la calculatrice (saisie et résultat actuels),
 //  j’ai utilisé la méthode `useState` de React
+//setInput(met à jour l'affichage)
 function Calculator() {
   const [input, setInput] = useState("");
 
   const handleButtonClick = (value) => {
+    //interprete la chaine comme une expression mathematique
     if (value === "=") {
       // Evaluate the expression
       try {
