@@ -1,13 +1,9 @@
-import Button from "./Button"
+const Button = ({value, functionClick, nameOfMyClass}) => {
+    return(
+        <button className={ nameOfMyClass } onClick={ functionClick } >
+            { value }
+        </button>
+    )
+}
 
- function Calculator2() {
-
-return (
-
-    <>
-    
-    </>
-)
- }
-
- export default Calculator2
+export default Button;

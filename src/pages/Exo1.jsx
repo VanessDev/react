@@ -2,7 +2,8 @@
 import Title from "../components/Title";
 import Message from "../components/Message";
 import Calculator from "./Calculator";
-import Button from "./Button";
+import Buttons from "./Buttons";
+
 
 function Exo1() {
   return (
@@ -21,7 +22,7 @@ function Exo1() {
         </div>
 
         <div>
-          <Button/>
+          <Buttons/>
         </div>
       </section>
     </>
